@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tatoc_Suite1">
+  <test name="Test_Tatoc_Advanced">
+  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="tatoc_Advanced_TestNG.Driver"></class>
+      <class name="tatoc_Advanced_TestNG.Task1_Hover"></class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

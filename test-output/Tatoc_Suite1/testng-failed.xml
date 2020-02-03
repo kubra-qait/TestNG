@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Tatoc_Suite1]">
+  <test thread-count="5" name="Test_Tatoc_Advanced(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tatoc_Advanced_TestNG.Task1_Hover">
+        <methods>
+          <include name="hoverMenu"/>
+        </methods>
+      </class> <!-- tatoc_Advanced_TestNG.Task1_Hover -->
+      <class name="tatoc_Advanced_TestNG.Driver">
+        <methods>
+          <include name="setDriver"/>
+          <include name="launchTatocAdvancedCourse"/>
+        </methods>
+      </class> <!-- tatoc_Advanced_TestNG.Driver -->
+    </classes>
+  </test> <!-- Test_Tatoc_Advanced(failed) -->
+</suite> <!-- Failed suite [Tatoc_Suite1] -->
